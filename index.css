@@ -18,8 +18,6 @@ body {
 .barra {
   background: rgb(0, 0, 0);
   background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(111, 27, 27, 1) 35%, rgba(0, 212, 255, 0) 100%);
-  margin: 0px;
-  padding: 0px;
   width: 100vw;
   display: flex;
   justify-content: space-between;
@@ -43,6 +41,12 @@ ul li {
   font-family: 'Lato';
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 a:hover {
   background-color: black;
+  border-radius: 3.55px;
 }
