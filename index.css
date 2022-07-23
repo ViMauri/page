@@ -42,3 +42,7 @@ ul li {
   margin-right: 80px;
   font-family: 'Lato';
 }
+
+a:hover {
+  background-color: black;
+}
