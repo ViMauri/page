@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color: #a31212;
+  margin: 0px;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(147, 67, 67, 1) 0%, rgba(111, 27, 27, 1) 90%);
 }
 
 .contenedor {
@@ -15,6 +16,10 @@ body {
 }
 
 .barra {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(111, 27, 27, 1) 35%, rgba(0, 212, 255, 0) 100%);
+  margin: 0px;
+  padding: 0px;
   width: 100vw;
   display: flex;
   justify-content: space-between;
