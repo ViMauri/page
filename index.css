@@ -13,9 +13,26 @@
   src: url(./fonts/Lexend/Lexend-VariableFont_wght.ttf);
 }
 
+@keyframes FondoMovimiento {
+  0% {
+    background-position: 50% 0%
+  }
+
+  50% {
+    background-position: 51% 100%
+  }
+
+  100% {
+    background-position: 50% 0%
+  }
+}
+
 body {
   margin: 0px;
-background: black;
+  background: linear-gradient(0deg, #ff0000, #000000);
+  background-size: 400% 400%;
+
+  animation: FondoMovimiento 10s ease infinite;
 }
 
 .contenedor {
@@ -68,7 +85,9 @@ li a:hover {
 }
 
 .inf-hero {
-  background-color: rgba(148, 26, 26, 0.575);
+  background: linear-gradient(0deg, #cacaca, #5f1f1f);
+  background-size: 400% 400%;
+  animation: FondoMovimiento 9s ease infinite;
   box-shadow: 4px 12px 55px -5px rgb(255, 173, 173) inset;
   border-radius: 50px;
   width: 40%;
@@ -109,6 +128,8 @@ div p {
 .parrafo {
   width: 60%;
   color: white;
+  font-family: 'Lato';
+  font-weight: 200;
 }
 
 @media (max-width: 1200px) and (min-width: 813px) {
@@ -117,6 +138,7 @@ div p {
     height: 40%;
     width: 60%;
   }
+
   .info {
     padding-top: 100px;
   }
