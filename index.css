@@ -65,6 +65,10 @@ ul li {
   display: inline-block;
   margin-right: 80px;
   font-family: 'Lato';
+  transition: 0.5s;
+  position: relative;
+  border: none;
+  color: #fff;
 }
 
 li a {
@@ -84,6 +88,61 @@ li a:hover {
   height: 100%;
   justify-content: center;
   align-items: center;
+  flex-direction: column-reverse;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton1 {
+  text-align: center;
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(180deg,#ea1000 0.6609533411751526%,#000000 47.622248361619896%,#000000 51%,#ff1100 99.24382456729961%);
+  border-radius: 5px;
+  border: 1px solid #000000;
+  border-width: 1px 1px 1px 1px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,1),0px 1px 3px rgba(0,0,0,0.3);
+    color: #fff;
+  font-size: 16px;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal;
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 40px;
+  margin-right: 250px;
+}
+
+.boton2 {
+  text-align: center;
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(180deg,#ea1000 0.6609533411751526%,#000000 47.622248361619896%,#000000 51%,#ff1100 99.24382456729961%);
+  border-radius: 5px;
+  border: 1px solid #000000;
+  border-width: 1px 1px 1px 1px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,1),0px 1px 3px rgba(0,0,0,0.3);
+    color: #fff;
+  font-size: 16px;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal;
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 .inf-hero {
@@ -120,7 +179,7 @@ div p {
 
 .info {
   width: 100%;
-  margin-top: -250px;
+  margin-top: -230px;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -128,7 +187,7 @@ div p {
 }
 
 .parrafo {
-  width: 60%;
+  width: 50%;
   color: white;
   font-family: 'Lato';
   font-weight: 200;
@@ -151,6 +210,10 @@ div p {
     width: 70%;
     height: 40%;
     margin-top: 100px;
+  }
+
+  .boton1 {
+    margin-right: 50px;
   }
 
   .info {
@@ -177,6 +240,10 @@ div p {
     width: 20vw;
     margin: 0px;
     box-sizing: border-box;
+  }
+
+  .boton1 {
+    margin-right: 10px;
   }
 
   ul li {
