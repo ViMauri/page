@@ -29,10 +29,12 @@
 
 body {
   margin: 0px;
-  background: linear-gradient(0deg, #ff0000, #000000);
-  background-size: 400% 400%;
+  padding: 0px;
+  background-color: rgb(0,0,0);
+}
 
-  animation: FondoMovimiento 9s ease infinite;
+li {
+  list-style: none;
 }
 
 .contenedor {
@@ -51,8 +53,9 @@ body {
 }
 
 .iconito {
-  width: 100px;
-  margin: 30px;
+  width: 150px;
+  height: 150px;
+  margin-left: 10px;
 }
 
 nav {
@@ -61,9 +64,9 @@ nav {
   text-align: right;
 }
 
-ul li {
-  display: inline-block;
-  margin-right: 80px;
+.li-header {
+  display: flex;
+  flex-direction: row;
   font-family: 'Lato';
   transition: 0.5s;
   position: relative;
@@ -71,13 +74,18 @@ ul li {
   color: #fff;
 }
 
-li a {
-  color: white;
-  text-decoration: none;
+.li-header li {
+  margin: 0 20px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
 li a:hover {
-  background-color: black;
+  background-color: red;
   border-radius: 3.55px;
 }
 
@@ -191,6 +199,86 @@ div p {
   color: white;
   font-family: 'Lato';
   font-weight: 200;
+}
+
+.container-cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.section-card {
+  margin-top: 100px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 20%;
+  margin: 0 50px;
+  height: 300px;
+  background-color: rgba(255, 255, 170, 0.17);
+  border-radius: 30px;
+}
+
+.cardimg1 {
+  display: flex;
+  height: 150px;
+  width: 200px;
+}
+
+.cardimg2 {
+  height: 150px;
+  width: 200px;
+}
+
+.cardimg3 {
+  height: 150px;
+  width: 200px;
+}
+
+.card-p {
+  width: 80%;
+}
+
+.container-footer {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: white;
+}
+
+.footer-d {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: courgette;
+}
+
+.footer2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: courgette;
+}
+
+footer h3 {
+  font-family: courgette;
+}
+
+.contacto {
+  height: 25px;
+}
+
+.container-footer a {
+  color: #000000;
 }
 
 @media (max-width: 1200px) and (min-width: 813px) {
