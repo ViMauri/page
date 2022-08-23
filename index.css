@@ -13,6 +13,10 @@ body {
   justify-content: space-around;
 }
 
+li {
+  list-style: none;
+}
+
 .container ul {
   display: flex;
   flex-direction: row;
@@ -21,7 +25,6 @@ body {
 .container li {
   display: flex;
   justify-content: center;
-  list-style: none;
   align-items: center;
   font-size: 25px;
   font-family: 'Cinzel';
@@ -35,6 +38,10 @@ a {
 
 a:visited {
   color: white;
+}
+
+a:hover {
+  color: red;
 }
 
 .container img {
@@ -53,6 +60,10 @@ a:visited {
   background-color: white;
   flex-wrap: wrap;
   border-radius: 20px;
+}
+
+h2 {
+  font-family: Cinzel;
 }
 
 .hero-info {
@@ -89,7 +100,7 @@ section img {
   width: 20%;
   margin: 0 50px;
   height: 300px;
-  background-color: rgba(255, 255, 170, 0.17);
+  background-color: darkred;
   border-radius: 30px;
 }
 
@@ -150,4 +161,8 @@ footer h3 {
 
 .container-footer a {
   color: #000000;
+}
+
+footer a:hover {
+  color: blue
 }
