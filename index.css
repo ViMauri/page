@@ -99,7 +99,7 @@ section img {
   flex-wrap: wrap;
   width: 20%;
   margin: 0 50px;
-  height: 300px;
+  height: 350px;
   background-color: darkred;
   border-radius: 30px;
 }
@@ -157,6 +157,7 @@ footer h3 {
 
 .contacto {
   height: 25px;
+  margin: 0 10px;
 }
 
 .container-footer a {
